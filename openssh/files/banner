@@ -1,5 +1,8 @@
 Welcome to {{ grains['id'] }}!
-
+The machine is running on {{ grains['virtual'] }} platform
+It's running {{ grains['osfinger']}}
+The IP interfaces are:
+       {{ grains['ip_interfaces']}}
 Managed By
 
    _____       ____  _____ __             __  
